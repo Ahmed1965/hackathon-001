@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.tab-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.tab-button:hover {
+    background-color: #777;
+}
+
+main {
+    padding: 20px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+    text-align:center;
+    
+}
+#about p{
+    font-size: 25px;
+    gape:3px;
+}
+#projects ul{
+    font-size:25px;
+    gape:3px;
+    list-style-type:none;
+}
+#projects p{
+    font-size:25px;
+}
+#contact p{
+    font-size:25px;
+    gape:3px;
+}
+#skills ul{
+    font-size:25px;
+    gape:3px;
+    list-style:none;
+}
+#skills p {
+    font-size:25px;
+}
+
+section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
